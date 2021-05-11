@@ -20,7 +20,7 @@ What works?
 
 
 <link href='https://fonts.googleapis.com/css?family=Varela' rel='stylesheet' type='text/css'>
-<p>Live with</p>
-<div class="glitch" data-text="PROGRAM">CODE</div>
-
-<p> This is another test </p>
+<div class="IntroSection"> 
+<h1>Live with</h1>
+<div class="glitch" data-text="CODE">CODE</div>
+</div>

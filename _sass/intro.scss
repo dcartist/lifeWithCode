@@ -1,5 +1,24 @@
+.IntroSection{
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 90vw;
+  
+
+  p {
+    text-align: center;
+  }
+
+}
+
+
+
+
+//* Glitch
+
 .glitch{
-    color:white;
+    color:rgb(3, 3, 3);
     font-size:100px;
     position:relative;
     width:400px;
@@ -17,10 +36,10 @@
     content:attr(data-text);
     position:absolute;
     left:2px;
-    text-shadow:-1px 0 red;
+    text-shadow:-1px 0 rgb(255, 255, 255);
     top:0;
-    color:white;
-    background:black;
+    color:rgb(8, 8, 8);
+    background:rgb(32, 32, 32);
     overflow:hidden;
     clip:rect(0,900px,0,0); 
     animation:noise-anim 2s infinite linear alternate-reverse;
@@ -40,8 +59,8 @@
     left:-2px;
     text-shadow:1px 0 blue; 
     top:0;
-    color:white;
-    background:black;
+    color:rgb(252, 252, 252);
+    background:rgb(5, 5, 5);
     overflow:hidden;
     clip:rect(0,900px,0,0); 
     animation:noise-anim-2 3s infinite linear alternate-reverse;
