@@ -5,7 +5,7 @@ title: "Happy Jekylling!"
 
 ## You're ready to go!
 
-Start developing your Jekyll website.
+What works?
 
 
 
@@ -17,5 +17,10 @@ Start developing your Jekyll website.
     </li>
   {% endfor %}
 </ul>
+
+
+<link href='https://fonts.googleapis.com/css?family=Varela' rel='stylesheet' type='text/css'>
+<p>Live with</p>
+<div class="glitch" data-text="PROGRAM">CODE</div>
 
 <p> This is another test </p>
