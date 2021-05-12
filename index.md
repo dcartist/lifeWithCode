@@ -3,10 +3,12 @@ layout: default
 title: "Happy Jekylling!"
 ---
 
-## You're ready to go!
-
-What works?
-
+<link href='https://fonts.googleapis.com/css?family=Varela' rel='stylesheet' type='text/css'>
+<div class="IntroSection"> 
+<h1>LIVE WITH</h1>
+<div class="glitch" data-text="CODE">CODE</div>
+<h2>A journey that goes beyond syntax</h2>
+</div>
 
 
 <ul>
@@ -17,10 +19,3 @@ What works?
     </li>
   {% endfor %}
 </ul>
-
-
-<link href='https://fonts.googleapis.com/css?family=Varela' rel='stylesheet' type='text/css'>
-<div class="IntroSection"> 
-<h1>Live with</h1>
-<div class="glitch" data-text="CODE">CODE</div>
-</div>
