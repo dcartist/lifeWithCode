@@ -4,8 +4,10 @@
     color: white;
     padding: 10px;
     margin: 0;
-    border-bottom: black 2px solid;
+    border-bottom: #000000 2px solid;
     height: 30px;
+    display: flex;
+    justify-content: space-between;
 
     ul{
         list-style-type: none;
