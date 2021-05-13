@@ -7,6 +7,15 @@
   width: 100vw;
   height: 300px;
 
+  hr{
+    border: 1px solid black !important;
+    width: 30%;
+    color: black;
+    background-color: black;
+    margin: -10px 0 15px 0;
+    padding: 0;
+  }
+
 // background:url("../images/background/stacked-steps-haikei.svg");
 // background:url("../images/background/low-poly-grid-haikei.svg");
 // background-attachment: fixed;
@@ -19,11 +28,21 @@
   font-family: $playfairSC;
 }
 
+// @media (min-width: $breakpoint-tablet) {
+//   .introHeader{
+//     font-size: 7rem;
+//   }
+// }
+
+
   h1 {
     text-align: center;
     margin-bottom: -30;
     z-index: 5;
     padding: 0;
+
+   
+
   }
 
 }
@@ -180,7 +199,14 @@
   }
 }
 
-
+@media (max-width: $breakpoint-phone) {
+  .introHeader{ 
+    font-size: 3rem;
+  }
+  .blinking-cursor{
+    font-size: 3rem;
+  }
+}
 
 
 

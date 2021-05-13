@@ -8,6 +8,12 @@ $newsReader: 'Newsreader', serif;
 $playfairSC: 'Playfair Display SC', serif;
 $playfair: 'Playfair Display', serif;
 $bodyFont: $openSans !important;
+
+//* Breakpoints
+$breakpoint-tablet: 768px;
+$breakpoint-phone: 600px;
+
+
 // font-family: 'Newsreader', serif;
 // font-family: 'Open Sans', sans-serif;
 // font-family: 'Playfair Display', serif;
@@ -25,3 +31,10 @@ body {
 
 @import "navigation";
 @import "intro";
+
+
+
+
+// @media (min-width: $breakpoint-tablet) {
+  
+// }

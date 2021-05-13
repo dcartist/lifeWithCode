@@ -2,5 +2,9 @@
   url: /
 - title: About
   url: /about
+- title: The Journey
+  url: /blog
+- title: blog
+  url: /blog
 - title: Contact
   url: /contact
