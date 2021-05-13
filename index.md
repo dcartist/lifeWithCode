@@ -5,7 +5,7 @@ title: "Happy Jekylling!"
 
 <link href='https://fonts.googleapis.com/css?family=Varela' rel='stylesheet' type='text/css'>
 <div class="IntroSection"> 
-<h1 class="typewriter-text">LIVE WITH CODE</h1>
+<p class="introHeader">Live with Code<span class="blinking-cursor">|</span></p>
 <!-- <h1>LIVE WITH</h1>
 <div class="glitch" data-text="CODE">CODE</div> -->
 <h2>A journey that goes beyond syntax</h2>

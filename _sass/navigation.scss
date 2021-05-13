@@ -9,6 +9,10 @@
     display: flex;
     justify-content: space-between;
 
+    .logoText{
+        font-family: $newsReader;
+    }
+
     ul{
         list-style-type: none;
         margin: 0;
