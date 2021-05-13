@@ -6,6 +6,7 @@ title: "Live with Code" # the name of your site, e.g. ACME Corp.
 include:
   - _pages
   - _posts
+  - _layouts
   - js
   - images
 
