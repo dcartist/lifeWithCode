@@ -11,6 +11,8 @@ include:
   - js
   - images
 
+markdown:  kramdown
+permalink: pretty
 
 defaults:
   - scope:
