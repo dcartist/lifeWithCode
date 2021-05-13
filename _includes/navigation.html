@@ -1,18 +1,25 @@
-<div id="navigation">
-  <ul>
-    {% for link in site.data.navigation %}
-    <li class='c-nav__item'><a class='c-nav__link' href='{{ link.url | prepend: site.baseurl }}'>{{ link.title }}</a></li>
-  {% endfor %}
-  </ul>
+<nav class="navbar navbar-expand-lg navbar-light border-bottom-3 border-dark">
+  <div class="container-fluid">
+    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        {% for link in site.data.navigation %}
+        <li class='nav-item'><a class='nav-link' href='{{ link.url | prepend: site.baseurl }}'>{{ link.title }}</a></li>
+      {% endfor %}
+        
+        
+      </ul>
+    
 
-  <ul>
-    <li class='c-nav__item'>
-      <form action="/search.html" method="get">
-        <label for="search_box">Search</label>
-        <input type="text" id="search_box" name="query">
+      <form class="d-flex" action="/search.html" method="get">
+        <!-- <label for="search_box" >Search</label> -->
+        <input type="text" id="search_box"  class="form-control me-2" name="query" placeholder="Search">
         <input type="submit" value="search">
       </form>
-    </li>
-  </ul>
- 
-</div>
+      
+    </div>
+  </div>
+</nav>
