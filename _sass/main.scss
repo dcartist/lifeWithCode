@@ -10,8 +10,10 @@ $playfair: 'Playfair Display', serif;
 $bodyFont: $openSans !important;
 
 //* Breakpoints
-$breakpoint-tablet: 768px;
 $breakpoint-phone: 600px;
+$breakpoint-tablet: 768px;
+$breakpoint-laptop: 992px;
+$breakpoint-lrg-desktop: 1200px;
 
 
 // font-family: 'Newsreader', serif;
@@ -35,6 +37,15 @@ body {
 
 
 
+// @media (max-width: $breakpoint-phone) {
+  
+// }
 // @media (min-width: $breakpoint-tablet) {
+  
+// }
+// @media (min-width: $breakpoint-laptop) {
+  
+// }
+// @media (min-width: $breakpoint-lrg-desktop) {
   
 // }
