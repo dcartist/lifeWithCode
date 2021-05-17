@@ -10,14 +10,14 @@
 	overflow: hidden;
 	z-index: 1104;
 	display: none;
-	div {
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 40px;
-		height: 480px;
-		background-image: url(../images/fancybox/fancybox.png);
-	}
+}
+#fancybox-loading div {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 40px;
+	height: 480px;
+	background-image: url(../images/fancybox/fancybox.png);
 }
 #fancybox-overlay {
 	position: absolute;
@@ -38,7 +38,7 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-	padding: 20px;
+	padding: 20px; /* should be 20px */
 	z-index: 1101;
 	outline: none;
 	display: none;
@@ -60,7 +60,7 @@
 	position: relative;
 	overflow: hidden;
 	z-index: 1102;
-	border: 0px solid #fff;
+	border: 0px solid #fff; /* border-width should be zero */
 }
 #fancybox-hide-sel-frame {
 	position: absolute;
@@ -104,7 +104,7 @@
 	border: none;
 	display: block;
 }
-#fancybox-left {
+#fancybox-left, #fancybox-right {
 	position: absolute;
 	bottom: 0px;
 	height: 100%;
@@ -114,34 +114,14 @@
 	background: transparent url(../images/fancybox/blank.gif);
 	z-index: 1102;
 	display: none;
+}
+#fancybox-left {
 	left: 0px;
-	&:hover {
-		visibility: visible;
-		span {
-			left: 20px;
-		}
-	}
 }
 #fancybox-right {
-	position: absolute;
-	bottom: 0px;
-	height: 100%;
-	width: 35%;
-	cursor: pointer;
-	outline: none;
-	background: transparent url(../images/fancybox/blank.gif);
-	z-index: 1102;
-	display: none;
 	right: 0px;
-	&:hover {
-		visibility: visible;
-		span {
-			left: auto;
-			right: 20px;
-		}
-	}
 }
-#fancybox-left-ico {
+#fancybox-left-ico, #fancybox-right-ico {
 	position: absolute;
 	top: 50%;
 	left: -9999px;
@@ -151,21 +131,24 @@
 	cursor: pointer;
 	z-index: 1102;
 	display: block;
+}
+#fancybox-left-ico {
 	background-image: url(../images/fancybox/fancybox.png);
 	background-position: -40px -30px;
 }
 #fancybox-right-ico {
-	position: absolute;
-	top: 50%;
-	left: -9999px;
-	width: 30px;
-	height: 30px;
-	margin-top: -15px;
-	cursor: pointer;
-	z-index: 1102;
-	display: block;
 	background-image: url(../images/fancybox/fancybox.png);
 	background-position: -40px -60px;
+}
+#fancybox-left:hover, #fancybox-right:hover {
+	visibility: visible; /* IE6 */
+}
+#fancybox-left:hover span {
+	left: 20px;
+}
+#fancybox-right:hover span {
+	left: auto;
+	right: 20px;
 }
 .fancybox-bg {
 	position: absolute;
@@ -199,7 +182,7 @@
 	bottom: -20px;
 	right: -20px;
 	background-image: url(../images/fancybox/fancybox.png);
-	background-position: -40px -182px;
+	background-position: -40px -182px; 
 }
 #fancybox-bg-s {
 	bottom: -20px;
@@ -264,10 +247,10 @@
 	border: none;
 	border-collapse: collapse;
 	width: auto;
-	td {
-		border: none;
-		white-space: nowrap;
-	}
+}
+#fancybox-title-float-wrap td {
+	border: none;
+	white-space: nowrap;
 }
 #fancybox-title-float-left {
 	padding: 0 0 0 15px;
