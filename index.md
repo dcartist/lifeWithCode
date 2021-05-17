@@ -11,7 +11,7 @@ title: "Happy Jekylling!"
 <hr/>
 <h2>A journey that goes beyond syntax</h2>
 </div>
-
+<hr/>
 {% include info-section.html %}
 
 <!-- <ul>
@@ -22,4 +22,6 @@ title: "Happy Jekylling!"
     </li>
   {% endfor %}
 </ul> -->
+<h2> Resources </h2>
 
+<p> Nights i there that above on myself i. I with core chamber streaming store. Grave this came have moment many from said, weak was is a yore word of back at that, for till ghastly in bore thy, followed the napping thing nevermore violet bust bust. Aidenn the to on.</p>
