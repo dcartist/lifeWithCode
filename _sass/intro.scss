@@ -161,3 +161,20 @@
 
 
   
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+  .blinking-cursor {
+    font-weight: 100;
+    font-size: 3.0rem !important;
+    // font-size: 30px;
+    color: #2E3D48;
+    -webkit-animation: 1s blink step-end infinite;
+    -moz-animation: 1s blink step-end infinite;
+    -ms-animation: 1s blink step-end infinite;
+    -o-animation: 1s blink step-end infinite;
+    animation: 1s blink step-end infinite;
+  }
+
+}

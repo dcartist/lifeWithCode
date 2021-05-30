@@ -14,3 +14,26 @@
         overflow: hidden;
     }
 }
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    /* CSS */
+    .info-section {
+        overflow: hidden;
+        width: 85vw;
+        margin: auto;
+        
+    }
+
+    .info-col {
+        float: left;
+        width: 25%;
+        background: #fff;
+        text-align: center;
+        height: 400px;
+        overflow: hidden;
+    }
+    
+    
+  }

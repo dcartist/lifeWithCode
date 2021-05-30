@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Happy Jekylling!"
+title: "Live With Code"
 ---
 
 <link href='https://fonts.googleapis.com/css?family=Varela' rel='stylesheet' type='text/css'>
