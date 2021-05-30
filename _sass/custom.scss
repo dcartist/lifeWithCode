@@ -2,6 +2,21 @@
     font-family: $playfairSC;
 }
 
+.posts{
+    a{
+        text-decoration: none;
+        color: black;
+        // transition: transform 250ms;
+    }
+    :hover{
+        background-color: rgba(39, 39, 39, 0.829);
+        color: white;
+        text-decoration: none;
+        // transform: translateY(-10px);
+    }
+
+    
+}
 
 .post-header{
     width: 100vw;

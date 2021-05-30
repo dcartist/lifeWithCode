@@ -22,6 +22,6 @@ title: "Live With Code"
     </li>
   {% endfor %}
 </ul> -->
-<h2> Resources </h2>
+<!-- <h2> Resources </h2>
 
-<p> Nights i there that above on myself i. I with core chamber streaming store. Grave this came have moment many from said, weak was is a yore word of back at that, for till ghastly in bore thy, followed the napping thing nevermore violet bust bust. Aidenn the to on.</p>
+<p> Nights i there that above on myself i. I with core chamber streaming store. Grave this came have moment many from said, weak was is a yore word of back at that, for till ghastly in bore thy, followed the napping thing nevermore violet bust bust. Aidenn the to on.</p> -->
