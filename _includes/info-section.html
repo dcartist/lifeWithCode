@@ -1,25 +1,5 @@
 <!-- info-section of the page -->
 <section class="info-section sameheight-block">
-    <!-- info-col of the page -->
-
-    <!-- {% for post in site.posts %}
-    <div class="info-col">
-        <a href="{{ post.url }}">
-            <header class="info-heding sameheight">
-                <h2>{{ post.title }}</h2>
-                <p>WE HAVE REVIEWED IT FOR YOU</p>
-            </header>
-            <div class="img-holder">
-                <span data-picture data-alt="image description">
-                    <img src="{{ post.image }}" class="img-fluid"/>
-                </span>
-            </div>
-        </a>
-    </div>
-    {% endfor %} -->
-
-
-
     <div class="album py-5">
         <div class="container">
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
@@ -28,7 +8,7 @@
                 <a href="{{ post.url }}">
               <div class="card shadow-sm">
                   <img src="{{ post.image }}" class="bd-placeholder-img card-img-top" width="100%" height="225"/>
-                <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+  
     
                 <div class="card-body">
                   <p class="card-text">{{ post.title }}</p>
@@ -36,7 +16,6 @@
                     <div class="btn-group">
                       <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                     </div>
-                    <!-- <small class="text-muted">9 mins</small> -->
                   </div>
                 </div>
               </div>
