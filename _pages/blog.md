@@ -1,15 +1,22 @@
 ---
 layout: default
-image: '/images/pages/circuit.jpg'
+title: Blog
 ---
+<div class="container">
+	<h2 class="spacing">Blog</h2>
 
-<h2> Welcome </h2>
-
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      <a href="http://www.google.com"> google</a>
-    </li>
-  {% endfor %}
-</ul>
+	<div class="blog-posts">
+		{% for post in site.posts %}
+			<div class="blog-post spacing">
+				<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+				<p class="summary">
+					{{ post.category }}
+					<span class="date">
+						{{ post.date | date: '%B %d, %Y' }}
+					</span>
+				</p>
+				{{ post.excerpt }}
+			</div>
+		{% endfor %}
+	</div>
+</div>

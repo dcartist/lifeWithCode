@@ -4,10 +4,12 @@ title: About
 image: '/images/pages/about.jpeg'
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
 
-![about](/images/posts/image15.jpg)
+<section class="about">
+<p>Something has to be said about being in the development world. You can find so many resources about syntax or a specific error message, but it's not as much about everything outside of the code.</p>
+<p>You might find something about imposter syndrome, but not about having your own mantra. Also, what if you were looking for words of encouragement? Where do you go from there?</p>
+<p>This is where "Live with Code" comes into play. I know this isn't going to be the all-to guide for encouragement, but just a unique spin from a web developer/rubber duck/ instructor associate who spends much of her time encouraging other devs. </p>
 
-You love Minimalism, and you also love writing, Aspire is designed for you. Aspire focus on showing your content in a clean and simple way, focus on images, typography, and white space.
+<h3>So welcome!</h3>
 
-Lorem ipsum dolor sit amet, vix ut case porro facilisis, alia possit neglegentur vis te. Has cu eirmod abhorreant, vel civibus efficiantur cu. Eu summo elitr vix, iusto putant maluisset per ut, ne etiam vivendum adipisci vel. Vis omnis tempor accusam ei, justo perpetua liberavisse cu qui. Saperet aliquando adipiscing ius ne, ne facer euripidis est. Pro mundi nostrum suavitate et.
+</section>

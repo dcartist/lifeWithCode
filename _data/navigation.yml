@@ -1,6 +1,10 @@
 - title: Home
   url: /
 - title: About
-  url: /about
+  url: /about.html
+- title: The Journey
+  url: /blogs.html
+- title: resources
+  url: /blog.html
 - title: Contact
-  url: /contact
+  url: /contact.html

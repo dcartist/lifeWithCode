@@ -1,48 +1,180 @@
-.glitch{
-    color:white;
-    font-size:100px;
-    position:relative;
-    width:400px;
-    margin:0 auto;
+.IntroSection{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 300px;
+
+  hr{
+    border: 1px solid black !important;
+    width: 30%;
+    color: black;
+    background-color: black;
+    margin: -10px 0 15px 0;
+    padding: 0;
   }
-  @keyframes noise-anim{
-    $steps:20;
-    @for $i from 0 through $steps{
-      #{percentage($i*(1/$steps))}{
-        clip:rect(random(100)+px,9999px,random(100)+px,0);
-      }
-    }
+
+// background:url("../images/background/stacked-steps-haikei.svg");
+// background:url("../images/background/low-poly-grid-haikei.svg");
+// background-attachment: fixed;
+// background-size: cover;
+// background-position: center;
+
+.introHeader{
+  font-size: 9rem;
+  margin: 0;
+  font-family: $playfairSC;
+
+  
+}
+
+@media (min-width: $breakpoint-tablet) {
+  .introHeader{ 
+    font-size: 3rem;
   }
-  .glitch:after{
-    content:attr(data-text);
-    position:absolute;
-    left:2px;
-    text-shadow:-1px 0 red;
-    top:0;
-    color:white;
-    background:black;
-    overflow:hidden;
-    clip:rect(0,900px,0,0); 
-    animation:noise-anim 2s infinite linear alternate-reverse;
+  .blinking-cursor{
+    font-size: 3rem;
   }
   
-  @keyframes noise-anim-2{
-    $steps:20;
-    @for $i from 0 through $steps{
-      #{percentage($i*(1/$steps))}{
-        clip:rect(random(100)+px,9999px,random(100)+px,0);
-      }
-    }
+}
+
+// @media (min-width: $breakpoint-tablet) {
+//   .introHeader{
+//     font-size: 7rem;
+//   }
+// }
+
+
+  h1 {
+    text-align: center;
+    margin-bottom: -30;
+    z-index: 5;
+    padding: 0;
+
+   
+
   }
-  .glitch:before{
-    content:attr(data-text);
-    position:absolute;
-    left:-2px;
-    text-shadow:1px 0 blue; 
-    top:0;
-    color:white;
-    background:black;
-    overflow:hidden;
-    clip:rect(0,900px,0,0); 
-    animation:noise-anim-2 3s infinite linear alternate-reverse;
+
+}
+
+
+
+//* Typewriter
+.typewriter-text {
+  overflow: hidden;
+  position: relative;
+  font-family: $newsReader;
+  width: 18em;
+  border-right: 2px solid rgba(0, 0, 0, 0.75);
+  font-size: 50px;
+  white-space: nowrap;
+
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+  blinkTextCursor 400ms steps(44) infinite normal;
+
+}
+
+
+@keyframes typewriter {
+  from {
+    width: 0;
   }
+
+  to {
+    width: 8em;
+  }
+}
+
+@keyframes blinkTextCursor {
+
+  from {
+    border-right-color: rgba(31, 31, 31, 0.75);
+  }
+
+  to {
+    border-right-color: transparent;
+  }
+
+}
+
+
+//* blinking Cursor
+.blinking-cursor {
+  font-weight: 100;
+  font-size: 6rem !important;
+  // font-size: 30px;
+  color: #2E3D48;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-webkit-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-ms-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-o-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+
+
+  
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+  .blinking-cursor {
+    font-weight: 100;
+    font-size: 3.0rem !important;
+    // font-size: 30px;
+    color: #2E3D48;
+    -webkit-animation: 1s blink step-end infinite;
+    -moz-animation: 1s blink step-end infinite;
+    -ms-animation: 1s blink step-end infinite;
+    -o-animation: 1s blink step-end infinite;
+    animation: 1s blink step-end infinite;
+  }
+
+}
